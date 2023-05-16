@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+    </head>
+    <body>
+        <h1>
+            Playground for practice with ejs with my friend <%= friend %>
+        </h1>
+
+        <ul>
+            <% for(let i=1; i<10; i++) { %>
+
+                <li>
+                    <%= i %>
+                </li>
+
+            <%}%>
+        </ul>
+
+        <% if(true) { %>
+
+            <h1> its true! </h1>
+            
+        <% } else {%>
+            <h1>Condition is false</h1>
+        <% } %>
+        
+        <div>
+            <% if(contactList) { %>
+                <ul>
+                    <p><%= contactList.name %></p>>
+                </ul>
+            <% } %>
+        </div>
+
+    </body>
+</html>

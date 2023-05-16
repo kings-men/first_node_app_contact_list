@@ -1,0 +1,14 @@
+Steps for Mongo DB
+`Install Mongo DB & Check
+`Install Robo 3T
+`Install mongoose (node package)
+`Set-up Config
+`Run Server and Set
+
+
+
+Mondo DB start Command
+
+`mongosh (to start)
+`sudo service mongod stop/start
+
